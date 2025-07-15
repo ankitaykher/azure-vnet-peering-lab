@@ -1,0 +1,62 @@
+# 🔧 Azure IaaS Networking Project – Virtual Network Peering
+
+This project demonstrates a hands-on implementation of **Azure Virtual Network (VNet) Peering** using Microsoft Azure's Infrastructure as a Service (IaaS).
+
+## 🧩 Project Overview
+
+Created a secure network setup using two virtual networks in the same Azure region, connected via VNet Peering, allowing seamless communication between virtual machines across networks.
+
+---
+
+## 🛠️ Key Objectives
+
+1. Created two Virtual Networks (VNets) in the same region.
+2. Deployed Virtual Machines (VMs) in each VNet.
+3. Configured **bi-directional VNet Peering**:
+   - East-to-West
+   - West-to-East
+4. Validated network connectivity between VMs across peered VNets.
+
+---
+
+## ⚙️ Tools & Services Used
+
+- Microsoft Azure Portal  
+- Virtual Networks (VNets)  
+- Virtual Machines (Windows/Linux)  
+- Network Security Groups (NSGs)  
+- VNet Peering  
+
+---
+
+## 📸 Screenshots
+
+> (Upload your screenshots in a folder named `screenshots/` and reference them here)
+
+![VNet Peering Setup](screenshots/vnet-peering-east-to-west.png)
+![Ping Test](screenshots/ping-success.png)
+
+---
+
+## ✅ Outcomes & Learnings
+
+- Learned how to provision VNets and VMs using Azure Portal.
+- Gained hands-on experience configuring **VNet Peering**.
+- Understood network communication across isolated virtual networks.
+- Practiced security configuration using **NSGs**.
+
+---
+
+## 📚 Next Steps (Future Enhancements)
+
+- Implement custom DNS across VNets  
+- Add Application Security Groups (ASG)  
+- Monitor traffic using Network Watcher  
+- Test cross-region VNet peering  
+
+---
+
+## 📌 Architecture Overview
+
+> You can add a network diagram like the one below:
+
